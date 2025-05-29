@@ -1,7 +1,29 @@
 ---
-title: "index"
-format: html
+title: "Homework_3_ENVS193DS"
+author: "Wyatt Erickson"
+date: 5/28/2025
+format:
+  html: 
+    toc: true #display table of contents
+    execute:
+message: false #do not display messages
 editor: visual
+warning: false #do not display warnings
 ---
 
-## 
+<https://github.com/werickson13/ENVS193DS_Hw_03.git>
+
+```{r setup, message = FALSE, warning = FALSE}
+library(tidyverse) #load packages
+library(gt)
+library(here)
+library(janitor)
+library(knitr)
+water_data <- read.csv("~/Git_/ENVS193DS_Hw_03/Data/ENVS193_data.csv") #load in data
+```
+
+## Problem 1. Personal Data
+
+#### a. Data Summarizing
+
+-   I can calculate the mean water usage on each day of the week, and compare those means to one another because I think I may use more water on certain days. Over the weekend I have more free time, so I think I will use more water (for example, taking longer showers, doing more laundry, etc.) on Saturday than other days of the week.
