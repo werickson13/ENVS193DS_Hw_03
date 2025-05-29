@@ -124,3 +124,7 @@ The table does a good job representing and conveying the results of the ANOVA te
 #### c. Aesthetic Clarity
 
 There is not much "visual clutter" present in this table. The data is concise, with a key at the bottom and values that show only the results with no other full sentence explanations. The inclusion of an r indicating a rejected null hypothesis is a concise indicator of the interpretation of these results, without needing a separate table.
+
+#### d. Recommendations
+
+One thing I might add to this table is a grid separating values. With eight rows and six columns of numbers present, it can seem a bit jumbled, and a grid with a low line weight could help the readability. Also, the Y and R metrics could be added to the key at the bottom of the table. While it is mentioned further up in the text that these represent sphericity and roundness, it would be a good idea for clarity to re-emphasize what these variables represent, as they did with "T = terrace".
