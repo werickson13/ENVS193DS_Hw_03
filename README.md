@@ -10,4 +10,4 @@ Code and Data folders contain data used to create this assignment. Data includes
 
 ### Rendered output
 
-[https://werickson13.github.io/ENVS193DS_Hw_03/Code/index.html](https://werickson13.github.io/ENVS193DS_Hw_03/index.html){.uri}
+<https://werickson13.github.io/ENVS193DS_Hw_03/Code/index.html>
