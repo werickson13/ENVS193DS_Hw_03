@@ -116,3 +116,7 @@ In the above visualization, the relationship between daily water usage is shown 
 The authors are using an ANOVA test to analyze differences in gravel sphericity and roundness between different terraces and locations. In terraces with a statistically significant difference from one another, they are represented with an r, meaning that the null hypothesis for that specific relationship is rejected. This analysis of variance compares mean grain size values throughout the river, and determines if the difference in these means is due to chance, or truly dependent on how upstream or downstream each grain is.
 
 ![](Data/table.png)
+
+#### b. Visual Clarity
+
+The table does a good job representing and conveying the results of the ANOVA test, and showing what values are and are not statistically significant. The key at the bottom efficiently elaborates key details of this description.
