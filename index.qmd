@@ -108,3 +108,11 @@ data_summary |> #use summarized dataframe
 #### d. Artist Statement
 
 In the above visualization, the relationship between daily water usage is shown through an image created in adobe illustrator and inspired by Lorraine Woodruff-Long's warming strips quilt. I plotted the data points for water usage by day as a scatterplot, and drew lines up to each point, curving the edges for days where there was only at-home water usage and assigning each day of the week a color pattern.
+
+## Problem 3. Statistical Critique
+
+#### a. Revisit and Summarize
+
+The authors are using an ANOVA test to analyze differences in gravel sphericity and roundness between different terraces and locations. In terraces with a statistically significant difference from one another, they are represented with an r, meaning that the null hypothesis for that specific relationship is rejected. This analysis of variance compares mean grain size values throughout the river, and determines if the difference in these means is due to chance, or truly dependent on how upstream or downstream each grain is.
+
+![](Data/table.png)
