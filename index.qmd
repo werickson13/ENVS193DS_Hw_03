@@ -104,3 +104,7 @@ data_summary |> #use summarized dataframe
 #### c. Visualization Draft
 
 ![](Data/data_visualization.png)
+
+#### d. Artist Statement
+
+In the above visualization, the relationship between daily water usage is shown through an image created in adobe illustrator and inspired by Lorraine Woodruff-Long's warming strips quilt. I plotted the data points for water usage by day as a scatterplot, and drew lines up to each point, curving the edges for days where there was only at-home water usage and assigning each day of the week a color pattern.
