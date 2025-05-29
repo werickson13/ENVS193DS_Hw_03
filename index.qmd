@@ -100,3 +100,7 @@ data_summary |> #use summarized dataframe
 #### b. Create a Sketch
 
 ![](Data/sketch.png)
+
+#### c. Visualization Draft
+
+![](Data/data_visualization.png)
