@@ -27,3 +27,39 @@ water_data <- read.csv("~/Git_/ENVS193DS_Hw_03/Data/ENVS193_data.csv") #load in 
 #### a. Data Summarizing
 
 -   I can calculate the mean water usage on each day of the week, and compare those means to one another because I think I may use more water on certain days. Over the weekend I have more free time, so I think I will use more water (for example, taking longer showers, doing more laundry, etc.) on Saturday than other days of the week.
+
+#### b. Visualization
+
+```{r}
+data_c <- water_data |> #use water dataframe
+  clean_names() |>  #clean up column names
+  mutate(week_day = recode(week_day,#rename values in week_day column
+                           "monday" = "Monday",
+                           "tuesday" = "Tuesday",
+                           "wednesday" = "Wednesday",
+                           "thursday" = "Thursday",
+                           "friday" = "Friday",
+                           "saturday" = "Saturday",
+                           "sunday" = "Sunday")) |> 
+  select(week_day,water_total)#view only day and total water columns
+print(data_c) #display selected columns from dataframe
+data_c$week_day <- factor(data_c$week_day, #rearrange cagegories to display as Monday - Sunday
+                             levels = c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"))
+ggplot(data_c, aes(x = week_day, y = water_total, color = week_day)) + #create jitterplot using water total and week day
+  geom_jitter(width = 0.1, shape = 16, size = 2, alpha = 0.5)+ #set parameters for plot
+    stat_summary(fun.data = mean_se, geom = "errorbar", width = 0.05, color = "black") + #create error bar
+  stat_summary(fun = mean, geom = "point", shape = 18, size = 4, color = "darkred")+ #create mean point
+  theme_dark(base_size = 14) + #set theme
+  theme(
+    panel.background = element_rect(fill = "white", color = NA), #set panel background color
+    plot.background = element_rect(fill = "gray", color = NA), #set plot background color
+    legend.position = "none" #remove legend
+  ) + 
+  scale_color_manual(values = c("Monday" = "blue", "Tuesday" = "darkgreen", "Wednesday" = "purple", "Thursday" = "darkorange", "Friday" = "cyan", "Saturday" = "green", "Sunday" = "brown1")) + #set point color
+  labs(
+    title = "Mean Water Usage Across Days of the Week", #set title
+    subtitle = "Wyatt Erickson", #set subtitle
+    x = "Day of the Week", #set x axis title
+    y = "Water Usage (gallons)" #set y axis title
+  )
+```
