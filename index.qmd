@@ -90,3 +90,9 @@ data_summary |> #use summarized dataframe
     locations = cells_column_labels(columns = everything())
   )
 ```
+
+## Problem 2. Affective Visualization
+
+#### a. Affective Visualization Description
+
+-   One idea I have to visualize my data is to display the line created by a scatterplot with date as the x-axis and water usage as the y-axis. I could draw lines up to each point, and divide these lines between at-home water usage and away from home water usage, which I collected in my original excel sheet. This display would show day-to day variation in water usage. I could also assign colors or different saturations of a single color to each day of the week.
