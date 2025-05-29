@@ -120,3 +120,7 @@ The authors are using an ANOVA test to analyze differences in gravel sphericity 
 #### b. Visual Clarity
 
 The table does a good job representing and conveying the results of the ANOVA test, and showing what values are and are not statistically significant. The key at the bottom efficiently elaborates key details of this description.
+
+#### c. Aesthetic Clarity
+
+There is not much "visual clutter" present in this table. The data is concise, with a key at the bottom and values that show only the results with no other full sentence explanations. The inclusion of an r indicating a rejected null hypothesis is a concise indicator of the interpretation of these results, without needing a separate table.
