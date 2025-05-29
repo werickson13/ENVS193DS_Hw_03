@@ -99,11 +99,11 @@ data_summary |> #use summarized dataframe
 
 #### b. Create a Sketch
 
-![](Data/sketch.png)
+![](images/sketch.png)
 
 #### c. Visualization Draft
 
-![](Data/data_visualization.png)
+![](images/data_visualization.png)
 
 #### d. Artist Statement
 
@@ -115,7 +115,7 @@ In the above visualization, the relationship between daily water usage is shown 
 
 The authors are using an ANOVA test to analyze differences in gravel sphericity and roundness between different terraces and locations. In terraces with a statistically significant difference from one another, they are represented with an r, meaning that the null hypothesis for that specific relationship is rejected. This analysis of variance compares mean grain size values throughout the river, and determines if the difference in these means is due to chance, or truly dependent on how upstream or downstream each grain is.
 
-![](Data/table.png)
+![](images/table.png)
 
 #### b. Visual Clarity
 
